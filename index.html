@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Report System</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- Vendor CSS -->
+    <link href="./css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/vendor/bootstrap/bootstrap-table.min.css" rel="stylesheet" />
+    <link href="./css/vendor/bootstrap/bootstrap-editable.min.css" rel="stylesheet" />
+    <link href="./css/vendor/pace/pace.min.css" rel="stylesheet" />
+    <link href="./css/vendor/AdminLTE/AdminLTE.min.css" rel="stylesheet" />
+    <link href="./css/vendor/AdminLTE/skins/skin-blue-light.min.css" rel="stylesheet" />
+    <link href="./css/vendor/sweetalert/sweetalert.min.css" rel="stylesheet" />
+    <link href="./css/vendor/animate/animate.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/ionicons.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="./css/app.css" rel="stylesheet" />
+
+
+</head>
+
+<body class="hold-transition sidebar-mini skin-blue-light sidebar-collapse">
+    <div class="wrapper margin-right">
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><i class="fa fa-home"></i></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b><i class="fa fa-home"></i>E-booking Home</b></span>
+            </a>
+
+            <!-- Header navbar -->
+            <nav class="navbar navbar-static-top">
+                <!-- Sidebar toggle button -->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Report System</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- ./main-header -->
+
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <!-- sidebar menu -->
+                <ul class="sidebar-menu">
+                    <li id="stationery" class="active treeview">
+                        <a href="javascript:void(0)" id="showTextarea">
+                            <i class="fa fa-pencil"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <!-- #/stationery -->
+
+                    <li id="admin" class="treeview">
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-user-secret"></i>
+                            <span>Admin</span>
+                            <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:void(0)" onclick="order.changeAdminOrderView()">
+                                    <i class="fa fa-circle-o"></i> Order
+                                    <span class="pull-right-container">
+                                            <!--<i class="fa fa-angle-left pull-right"></i>-->
+                                        </span>
+                                </a>
+                                <!--<ul class="treeview-menu">
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminOrderView('Pending')">
+                                            <i class="fa fa-circle-o"></i> Pending
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminOrderView('Processing')">
+                                            <i class="fa fa-circle-o"></i> Processing
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminOrderView('Completed')">
+                                            <i class="fa fa-circle-o"></i> Completed
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminOrderView('Canceled')">
+                                            <i class="fa fa-circle-o"></i> Canceled
+                                        </a>
+                                    </li>
+                                </ul>-->
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0)" onclick="order.changeAdminReportView()">
+                                    <i class="fa fa-circle-o"></i> Report
+                                    <span class="pull-right-container">
+                                            <!--<i class="fa fa-angle-left pull-right"></i>-->
+                                        </span>
+                                </a>
+                                <!--<ul class="treeview-menu">
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminReportView('report-by-dept')">
+                                            <i class="fa fa-circle-o"></i> By Department
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" onclick="Order.changeAdminReportView('report-by-type')">
+                                            <i class="fa fa-circle-o"></i> By Type
+                                        </a>
+                                    </li>
+                                </ul>-->
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #/admin -->
+                </ul>
+            </section>
+            <!-- ./sidebar -->
+        </aside>
+        <!-- ./main-sidebar -->
+
+        <div id="contentWrapper" class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section id="boxTextarea">
+                <textarea id="jsonTextarea" class="form-control" rows="20"></textarea>
+                <button id="save" class="btn btn-success btn-lg">Save</button>
+            </section>
+
+            <section id="boxAdminOrderContent" style="display:none">
+                <div id="boxAdminOrder" class="box animated fadeInRight">
+                    <div class="box-header box-header-info">
+                        <h3 class="box-title">Admin Order Management</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table id="tableAdminOrder"></table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- #/boxAdminOrder -->
+            </section>
+            <!-- #/boxAdminOrderContent -->
+            <section id="boxReportContent" style="display:none">
+                <div id="boxReport" class="box animated fadeInRight">
+                    <div class="box-header box-header-success">
+                        <h3 class="box-title">Admin Report Management</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <!--<div id="toolbarAdminReport">
+                            <button type="button" class="btn btn-info" onclick="Order.btnNotifyAction()">Send to Coordinator</button>
+                        </div>-->
+                        <table id="tableReport"></table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- #/boxReport -->
+            </section>
+            <!-- #/boxReportContent -->
+        </div>
+        <!-- .#/contentWrapper -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- Vendor JavaScript -->
+    <script src="./js/vendor/jquery/jquery.min.js"></script>
+    <script src="./js/vendor/lodash/lodash.min.js"></script>
+    <script src="./js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/vendor/AdminLTE/AdminLTE.min.js"></script>
+    <script src="./js/vendor/bootstrap/bootstrap-editable.min.js"></script>
+    <script src="./js/vendor/bootstrap/bootstrap-table.min.js"></script>
+    <script src="./js/vendor/bootstrap/bootstrap-table-editable.min.js"></script>
+    <script src="./js/vendor/bootstrap/bootstrap-table-export.min.js"></script>
+    <script src="./js/vendor/tableExport/FileSaver.min.js"></script>
+    <script src="./js/vendor/tableExport/xlsx.core.min.js"></script>
+    <script src="./js/vendor/tableExport/tableExport.min.js"></script>
+    <script src="./js/vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="./js/vendor/pace/pace.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="./js/app.js"></script>
+    <script src="./js/module/util.js"></script>
+    <script src="./js/module/order.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,712 @@
+[{
+    "id": 13,
+    "pid": "28R1953-000",
+    "cname": "磁环",
+    "qty": 96,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.2597,
+    "total": 24.9312
+}, {
+    "id": 1,
+    "pid": "28A0592-0A2",
+    "cname": "电磁干扰滤波器",
+    "qty": 48,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.4921,
+    "total": 23.6208
+}, {
+    "id": 5,
+    "pid": "28A0592-0A2",
+    "cname": "电磁干扰滤波器",
+    "qty": 144,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.4921,
+    "total": 70.8624
+}, {
+    "id": 9,
+    "pid": "1375819-1",
+    "cname": "端子",
+    "qty": 5500,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0115,
+    "total": 63.25
+}, {
+    "id": 76,
+    "pid": "350690-2",
+    "cname": "端子",
+    "qty": 100,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.431,
+    "total": 43.1
+}, {
+    "id": 79,
+    "pid": "08-50-0106",
+    "cname": "端子",
+    "qty": 50,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0238,
+    "total": 1.19
+}, {
+    "id": 22,
+    "pid": "RM16M23D28",
+    "cname": "端子",
+    "qty": 200,
+    "unit": "个",
+    "origin": "FR",
+    "price": 1.1621,
+    "total": 232.42
+}, {
+    "id": 28,
+    "pid": "66099-1",
+    "cname": "端子",
+    "qty": 145,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.5514,
+    "total": 79.953
+}, {
+    "id": 29,
+    "pid": "66104-8",
+    "cname": "端子",
+    "qty": 400,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.4237,
+    "total": 169.48
+}, {
+    "id": 60,
+    "pid": "JN224-318-M",
+    "cname": "端子",
+    "qty": 100,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.132,
+    "total": 13.2
+}, {
+    "id": 66,
+    "pid": "66104-8",
+    "cname": "端子",
+    "qty": 400,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.4237,
+    "total": 169.48
+}, {
+    "id": 73,
+    "pid": "66101-3",
+    "cname": "端子",
+    "qty": 200,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.3267,
+    "total": 65.34
+}, {
+    "id": 21,
+    "pid": "31895",
+    "cname": "端子",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.3038,
+    "total": 30.38
+}, {
+    "id": 54,
+    "pid": "31880",
+    "cname": "端子",
+    "qty": 1500,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.0865,
+    "total": 129.75
+}, {
+    "id": 62,
+    "pid": "130171",
+    "cname": "端子",
+    "qty": 128,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.254,
+    "total": 32.512
+}, {
+    "id": 63,
+    "pid": "321045",
+    "cname": "端子",
+    "qty": 1000,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.1107,
+    "total": 110.7
+}, {
+    "id": 70,
+    "pid": "34108",
+    "cname": "端子",
+    "qty": 80,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.1038,
+    "total": 8.304
+}, {
+    "id": 39,
+    "pid": "3003W3PXX99A10X",
+    "cname": "接插件",
+    "qty": 30,
+    "unit": "个",
+    "origin": "CA",
+    "price": 1.031,
+    "total": 30.93
+}, {
+    "id": 30,
+    "pid": "132111",
+    "cname": "接插件",
+    "qty": 20,
+    "unit": "个",
+    "origin": "CN",
+    "price": 3.71,
+    "total": 74.2
+}, {
+    "id": 41,
+    "pid": "3-640426-2",
+    "cname": "接插件",
+    "qty": 100,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0971,
+    "total": 9.71
+}, {
+    "id": 47,
+    "pid": "4-643813-2",
+    "cname": "接插件",
+    "qty": 30,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.2731,
+    "total": 8.193
+}, {
+    "id": 56,
+    "pid": "640440-3",
+    "cname": "接插件",
+    "qty": 200,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.072,
+    "total": 14.4
+}, {
+    "id": 58,
+    "pid": "640440-3",
+    "cname": "接插件",
+    "qty": 200,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.072,
+    "total": 14.4
+}, {
+    "id": 61,
+    "pid": "3-640441-8",
+    "cname": "接插件",
+    "qty": 1000,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.1601,
+    "total": 160.1
+}, {
+    "id": 48,
+    "pid": "90327-0310",
+    "cname": "接插件",
+    "qty": 100,
+    "unit": "个",
+    "origin": "IE",
+    "price": 0.2376,
+    "total": 23.76
+}, {
+    "id": 11,
+    "pid": "5207908-4",
+    "cname": "接插件",
+    "qty": 70,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.704,
+    "total": 119.28
+}, {
+    "id": 25,
+    "pid": "205210-8",
+    "cname": "接插件",
+    "qty": 60,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.0426,
+    "total": 62.556
+}, {
+    "id": 32,
+    "pid": "205204-9",
+    "cname": "接插件",
+    "qty": 120,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.4704,
+    "total": 56.448
+}, {
+    "id": 33,
+    "pid": "205205-7",
+    "cname": "接插件",
+    "qty": 30,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.5899,
+    "total": 17.697
+}, {
+    "id": 34,
+    "pid": "205206-9",
+    "cname": "接插件",
+    "qty": 50,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.6421,
+    "total": 32.105
+}, {
+    "id": 37,
+    "pid": "5205207-1",
+    "cname": "接插件",
+    "qty": 20,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.5734,
+    "total": 11.468
+}, {
+    "id": 45,
+    "pid": "1658671-1",
+    "cname": "接插件",
+    "qty": 200,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.1037,
+    "total": 220.74
+}, {
+    "id": 69,
+    "pid": "1658671-1",
+    "cname": "接插件",
+    "qty": 100,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.1037,
+    "total": 110.37
+}, {
+    "id": 74,
+    "pid": "205203-8",
+    "cname": "接插件",
+    "qty": 100,
+    "unit": "个",
+    "origin": "MX",
+    "price": 0.547,
+    "total": 54.7
+}, {
+    "id": 20,
+    "pid": "180-015-203L001",
+    "cname": "接插件",
+    "qty": 50,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.65,
+    "total": 32.5
+}, {
+    "id": 52,
+    "pid": "L722A",
+    "cname": "接插件",
+    "qty": 50,
+    "unit": "个",
+    "origin": "US",
+    "price": 2.1956,
+    "total": 109.78
+}, {
+    "id": 14,
+    "pid": "5745173-4",
+    "cname": "金属外壳",
+    "qty": 50,
+    "unit": "个",
+    "origin": "MX",
+    "price": 4.0182,
+    "total": 200.91
+}, {
+    "id": 15,
+    "pid": "5748676-1",
+    "cname": "金属外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 2.48,
+    "total": 248
+}, {
+    "id": 12,
+    "pid": "3357-9215",
+    "cname": "连接器外壳",
+    "qty": 50,
+    "unit": "套",
+    "origin": "JP",
+    "price": 2.79,
+    "total": 139.5
+}, {
+    "id": 65,
+    "pid": "5207908-1",
+    "cname": "连接器外壳",
+    "qty": 4,
+    "unit": "个",
+    "origin": "US",
+    "price": 2.177,
+    "total": 8.708
+}, {
+    "id": 68,
+    "pid": "208130-1",
+    "cname": "连接器外壳",
+    "qty": 4,
+    "unit": "个",
+    "origin": "MX",
+    "price": 4.16,
+    "total": 16.64
+}, {
+    "id": 8,
+    "pid": "3365/14",
+    "cname": "排线",
+    "qty": 91.44,
+    "unit": "米",
+    "origin": "US",
+    "price": 0.4276,
+    "total": 39.0997
+}, {
+    "id": 51,
+    "pid": "3365/06",
+    "cname": "排线",
+    "qty": 30.48,
+    "unit": "米",
+    "origin": "US",
+    "price": 0.3406,
+    "total": 10.3815
+}, {
+    "id": 4,
+    "pid": "RNF-150-1/4-0-SP",
+    "cname": "热缩套管",
+    "qty": 152.4,
+    "unit": "米",
+    "origin": "US",
+    "price": 2.1325,
+    "total": 324.993
+}, {
+    "id": 10,
+    "pid": "RNF-150-1/4-0-SP",
+    "cname": "热缩套管",
+    "qty": 76.2,
+    "unit": "米",
+    "origin": "US",
+    "price": 2.1325,
+    "total": 162.4965
+}, {
+    "id": 19,
+    "pid": "641994-1",
+    "cname": "塑料端子",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.0301,
+    "total": 3.01
+}, {
+    "id": 71,
+    "pid": "65307-001LF",
+    "cname": "塑料端子",
+    "qty": 300,
+    "unit": "个",
+    "origin": "FR",
+    "price": 0.1188,
+    "total": 35.64
+}, {
+    "id": 17,
+    "pid": "MBDX-1B",
+    "cname": "塑料环",
+    "qty": 62,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.83,
+    "total": 51.46
+}, {
+    "id": 18,
+    "pid": "MBDX-1B",
+    "cname": "塑料环",
+    "qty": 2,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.83,
+    "total": 1.66
+}, {
+    "id": 2,
+    "pid": "206070-8",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "套",
+    "origin": "MX",
+    "price": 1.0667,
+    "total": 106.67
+}, {
+    "id": 72,
+    "pid": "90311-010LF",
+    "cname": "塑料外壳",
+    "qty": 350,
+    "unit": "个",
+    "origin": "FR",
+    "price": 0.28,
+    "total": 98
+}, {
+    "id": 40,
+    "pid": "1375820-5",
+    "cname": "塑料外壳",
+    "qty": 266,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0613,
+    "total": 16.3058
+}, {
+    "id": 42,
+    "pid": "1375820-5",
+    "cname": "塑料外壳",
+    "qty": 300,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0613,
+    "total": 18.39
+}, {
+    "id": 46,
+    "pid": "1375820-5",
+    "cname": "塑料外壳",
+    "qty": 300,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0613,
+    "total": 18.39
+}, {
+    "id": 49,
+    "pid": "647402-3",
+    "cname": "塑料外壳",
+    "qty": 200,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.1021,
+    "total": 20.42
+}, {
+    "id": 50,
+    "pid": "1-480303-0",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.1316,
+    "total": 13.16
+}, {
+    "id": 53,
+    "pid": "103653-2",
+    "cname": "塑料外壳",
+    "qty": 10,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.1668,
+    "total": 1.668
+}, {
+    "id": 55,
+    "pid": "3-643813-2",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0373,
+    "total": 3.73
+}, {
+    "id": 67,
+    "pid": "172338-1",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.1679,
+    "total": 16.79
+}, {
+    "id": 77,
+    "pid": "39-01-3023",
+    "cname": "塑料外壳",
+    "qty": 50,
+    "unit": "个",
+    "origin": "CN",
+    "price": 0.0314,
+    "total": 1.57
+}, {
+    "id": 3,
+    "pid": "1-5207908-0",
+    "cname": "塑料外壳",
+    "qty": 50,
+    "unit": "个",
+    "origin": "MX",
+    "price": 2.81,
+    "total": 140.5
+}, {
+    "id": 6,
+    "pid": "1-206062-4",
+    "cname": "塑料外壳",
+    "qty": 50,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.2346,
+    "total": 61.73
+}, {
+    "id": 16,
+    "pid": "1-206062-4",
+    "cname": "塑料外壳",
+    "qty": 130,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.2346,
+    "total": 160.498
+}, {
+    "id": 26,
+    "pid": "206358-5",
+    "cname": "塑料外壳",
+    "qty": 2,
+    "unit": "个",
+    "origin": "MX",
+    "price": 2.5334,
+    "total": 5.0668
+}, {
+    "id": 27,
+    "pid": "206708-1",
+    "cname": "塑料外壳",
+    "qty": 7,
+    "unit": "个",
+    "origin": "MX",
+    "price": 2.3467,
+    "total": 16.4269
+}, {
+    "id": 31,
+    "pid": "206060-1",
+    "cname": "塑料外壳",
+    "qty": 140,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.3334,
+    "total": 186.676
+}, {
+    "id": 35,
+    "pid": "206037-1",
+    "cname": "塑料外壳",
+    "qty": 30,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.8667,
+    "total": 56.001
+}, {
+    "id": 36,
+    "pid": "206044-1",
+    "cname": "塑料外壳",
+    "qty": 4,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.3376,
+    "total": 5.3504
+}, {
+    "id": 57,
+    "pid": "211398-1",
+    "cname": "塑料外壳",
+    "qty": 1,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.9547,
+    "total": 1.9547
+}, {
+    "id": 59,
+    "pid": "206358-5",
+    "cname": "塑料外壳",
+    "qty": 2,
+    "unit": "个",
+    "origin": "MX",
+    "price": 2.5334,
+    "total": 5.0668
+}, {
+    "id": 64,
+    "pid": "206358-5",
+    "cname": "塑料外壳",
+    "qty": 7,
+    "unit": "个",
+    "origin": "MX",
+    "price": 2.5334,
+    "total": 17.7338
+}, {
+    "id": 75,
+    "pid": "206037-1",
+    "cname": "塑料外壳",
+    "qty": 10,
+    "unit": "个",
+    "origin": "MX",
+    "price": 1.3067,
+    "total": 13.067
+}, {
+    "id": 7,
+    "pid": "3448-89110",
+    "cname": "塑料外壳",
+    "qty": 400,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.1266,
+    "total": 50.64
+}, {
+    "id": 23,
+    "pid": "SMS6P1",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.437,
+    "total": 43.7
+}, {
+    "id": 24,
+    "pid": "SMS6R1",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.4037,
+    "total": 40.37
+}, {
+    "id": 38,
+    "pid": "43914-1104",
+    "cname": "塑料外壳",
+    "qty": 5,
+    "unit": "个",
+    "origin": "US",
+    "price": 2.466,
+    "total": 12.33
+}, {
+    "id": 43,
+    "pid": "558211-1",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.215,
+    "total": 21.5
+}, {
+    "id": 44,
+    "pid": "558211-1",
+    "cname": "塑料外壳",
+    "qty": 100,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.215,
+    "total": 21.5
+}, {
+    "id": 78,
+    "pid": "50-57-9407",
+    "cname": "塑料外壳",
+    "qty": 200,
+    "unit": "个",
+    "origin": "US",
+    "price": 0.1053,
+    "total": 21.06
+}]
